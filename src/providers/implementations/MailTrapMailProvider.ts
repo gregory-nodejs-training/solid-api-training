@@ -7,7 +7,9 @@ import {
     MAIL_TRAP_PASS
 } from "../../config";
 
-
+/**
+ * https://mailtrap.io/ -> SMTP para testar envio de e-mail.
+ */
 class MailTrapMailProvider implements IMailProvider {
     private transporter;
     constructor() {
